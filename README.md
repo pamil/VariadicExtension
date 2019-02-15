@@ -26,7 +26,6 @@ Adds variadic arguments support to Behat steps definitions.
     /**
      * @Given the store has( also) :firstProductName and :secondProductName products
      * @Given the store has( also) :firstProductName, :secondProductName and :thirdProductName products
-     * @Given the store has( also) :firstProductName, :secondProductName, :thirdProductName and :fourthProductName products
      */
     public function theStoreHasProducts(...$productsNames)
     {
